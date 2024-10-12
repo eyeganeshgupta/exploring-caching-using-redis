@@ -2,8 +2,8 @@ const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const dbConnect = require("./config/dbConnect");
-const User = require("./model/User");
 const userRoutes = require("./routes/userRoutes");
+const redisClient = require("./utils/redisClient");
 
 // ! Load environment variables from .env file
 dotenv.config();
