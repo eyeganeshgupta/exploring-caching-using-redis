@@ -30,9 +30,26 @@ body {
   min-height: 100vh;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.max-w-1200 {
+  max-width: 1200px;
 }
 
 button {
